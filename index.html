@@ -7,23 +7,26 @@
 </head>
 <body>
     <!--primera clase-->
-   <div>
+   
   
     <header>
-    <h1> Jessica Catherine Hidrobo Folleco</h1>
+
+      <div>
+        <h1> Jessica Catherine Hidrobo Folleco</h1>
     <h2> Estudiante CESMAG </h2>
     <center>
         <img src="img/foto1.jpg" alt="fotografìa de Jessica" width="200">
     </center>
-
-   </div>
+      </div>
+    
+   
     
     <hr>
     <hr>
   
     <!-- segundo corte div -->
     <!-- Perfil profesional -->
-    <div>
+    <section class="secction" id="Perfil">
     <h2>Perfil profesional</h2>
     <p>
       Estudiando Ingeniera de Sistemas 
@@ -33,7 +36,7 @@
       arquitectura de aplicaciones y ciberseguridad.
     </p>
 
-    </div>
+    </section>
     
     <hr>
     <hr>
@@ -55,24 +58,23 @@
     <hr>
     <hr>
    
-   <div> 
+   <section class="seccion" id="Educación"> 
     <h2>Educación</h2> 
+   
+    <article class="Universidad"> 
     <h3>Universidad</h3>
     <p>Estudiando ingenieria sistemas </p>
+    </article>
+   
 
-   </div>
+   </section>
     
 
     <hr>
     <hr>
 
-    <div>
+    <secton class="seccion" id="Habilidadades">
 
-
-    </div>
-    
-    <hr>
-    <hr>
     <h2>Habilidadades </h2> 
     <h3> </h3>
     
@@ -92,16 +94,64 @@
 
      </ul>
 
+
+    </secton>
+    
+    
+    
     <hr>
     <hr>
+    <section class="seccion" id="proyectos" >
+
     <h2>proyectos </h2> 
+
     <p>Proyectos académicos de programación: Desarrollo de ejercicios prácticos utilizando Python. </p>
     <p>Proyecto de base de datos: Diseño de una base de datos relacional, incluyendo creación de tablas y manejo de información mediante SQL.</p> 
     <p>Proyecto de control de versiones: Uso de Git y GitHub para gestionar cambios, versiones y archivos de un proyecto de software</p>
 
+    </section>
     <hr>
     <hr>
-     <h2>Mis redes sociales </h2>
+     <section class="seccion" id="experiencia">
+      <h2> experiencia profeccional</h2>
+      <!-- table para crear tablas-->
+      <table>
+        <thead>
+          <!-- <thead> titulos de la tabla, <tr> filas <th> columnas -->
+          <tr>
+            <th>cargo</th>
+            <th>organizacion</th>
+            <th>periodo</th>
+          </tr>
+        </thead>
+        <tbody>
+        <!--<tbody> contenido de la tabla, <tr> filas <td> columnas -->
+          <tr>
+            <td>docernte</td>
+            <td>Universidad CESMAG</td>
+            <td>2025-actual</td>
+          </tr>
+          <tr>
+            <td>asistente de proyectos</td>
+            <td>Universidad CESMAG</td>
+            <td>2020-2021</td>
+          </tr>
+          <tr> 
+            <td>diseñador grafico</td>
+            <td>creativossas</td>
+            <td>2022-2023</td>
+          </tr>
+        </tbody>
+      </table>
+
+     </section>
+
+    <hr>
+    <hr>
+
+    <section class="seccion" id="redes">
+
+    <h2>Mis redes sociales </h2>
    
     <!-- <ul> me indica que voy a tener una lista no ordenada (lista de puntos)-->
     <!-- <ol> me indica que voy a tener una lista ordenada (lista de numeros)-->
@@ -119,16 +169,30 @@
          </li>
      </ol>
 
+    </section>
+     
+
     <!-- <ol> me indica que voy a tener una lista ordenada (lista de numeros)-->
 
     <hr> 
     <hr>
+
+    <section class="seccion" id="pasatiempos">
      <h2>
       <a href="pasatiempos.html">Dale click aqui para conocer mis pasatiempos</a>
      </h2>
+
+    </section>
+     
  
 
    </header>
+   <footer>
+   <!-- pie de pagina-->
+   <p> 
+    hoja de vida 
+   </p>
+   </footer>
 
 </body>
 </html>
