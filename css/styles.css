@@ -1,0 +1,21 @@
+/* estilo de la pagina*/
+
+body{
+    background-color: #6d46fa;
+    color: #333;
+    font-family: cursive;
+}
+
+/* textos*/
+
+h1 {
+    color: black;
+    font: size 40px;
+}
+
+.seccion{
+    background-color: rgb(193, 225, 253);
+}
+ #Perfil{
+    background-color: rgb(160, 250, 190);
+}
