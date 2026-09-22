@@ -1,8 +1,8 @@
 /* estilo de la pagina*/
 
 body{
-    background-color: #6d46fa;
-    color: #333;
+    background-color: #a9d1e4;
+    color: #07091a;
     font-family: cursive;
 }
 
@@ -14,8 +14,12 @@ h1 {
 }
 
 .seccion{
-    background-color: rgb(193, 225, 253);
+    background-color: rgb(165, 206, 241);
 }
  #Perfil{
-    background-color: rgb(160, 250, 190);
+    background-color: rgb(165, 223, 247);
+}
+button{
+background-color: rgb(112, 206, 247);
+font-family: cursive;
 }
