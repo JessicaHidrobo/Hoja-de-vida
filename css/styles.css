@@ -13,13 +13,42 @@ h1 {
     font: size 40px;
 }
 
+h2 {
+    color: blue;
+    font: size 40px;
+}
+
+h3 {
+    color: black;
+    font: size 40px;
+}
+
+
+p {
+    color: black;
+    line-height: 1.6;  /*interlineado*/
+    font: size 40px;
+}
+
+
+/* etiquetas se escriben igual que en el html h1 p etc*/
+/* .seccion para clases ( afecta a toda la seccion) # id de una seccion(afecta a una sola etiqueta) */
 .seccion{
     background-color: rgb(165, 206, 241);
 }
  #Perfil{
     background-color: rgb(165, 223, 247);
 }
-button{
-background-color: rgb(112, 206, 247);
-font-family: cursive;
+
+
+
+header{
+    background-color: #050505;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    
 }
